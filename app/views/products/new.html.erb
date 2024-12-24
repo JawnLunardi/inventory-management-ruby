@@ -1,0 +1,11 @@
+<% content_for :title, "New product" %>
+
+<h1>Adicionar novo produto</h1>
+
+<%= render "form", product: @product %>
+
+<br>
+
+<div>
+  <%= link_to "Voltar", products_path, class:"btn btn-secondary" %>
+</div>
